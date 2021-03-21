@@ -17,6 +17,7 @@
         "global-require":"off",
         "no-console":"off",
         "no-unused-vars":"warn",
-        "no-useless-return":"off"
+        "no-useless-return":"off",
+        "max-len":"off"
     }
 }
