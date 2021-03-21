@@ -3,7 +3,9 @@ const Discord = require('discord.js');
 // Libs
 const fs = require('fs');
 // Config
-const { token, prefix, xpSystemConfig } = require('./config/config.json');
+const {
+  token, prefix, xpSystemConfig, uriDatabase,
+} = require('./config/config.json');
 // Client
 const client = new Discord.Client();
 // Mongoose
@@ -21,8 +23,7 @@ client.once('ready', () => {
 });
 
 // Database connection
-const uri = 'mongodb+srv://tulio:tulio123@cluster0.o45dd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
-mongoose.connect(uri, {
+mongoose.connect(uriDatabase, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
