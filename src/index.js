@@ -6,6 +6,8 @@ const fs = require('fs');
 const { token, prefix } = require('./config/config.json');
 // Client
 const client = new Discord.Client();
+// Mongoose
+const mongoose = require('mongoose');
 // Commands
 client.commands = new Discord.Collection();
 
@@ -16,7 +18,16 @@ client.once('ready', () => {
   console.log('Bear bot online!');
 });
 
-console.log(prefix);
+// Database connection
+const uri = 'mongodb+srv://tulio:tulio123@cluster0.o45dd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+mongoose.connect(uri, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
+
+mongoose.connection.on('connected', () => {
+  console.log('Banco de dados conectado!!');
+});
 
 // Command handler
 
