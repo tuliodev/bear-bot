@@ -18,6 +18,7 @@
         "no-console":"off",
         "no-unused-vars":"warn",
         "no-useless-return":"off",
-        "max-len":"off"
+        "max-len":"off",
+        "import/order":"off"
     }
 }
