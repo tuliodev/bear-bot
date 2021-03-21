@@ -26,7 +26,7 @@ mongoose.connect(uri, {
 });
 
 mongoose.connection.on('connected', () => {
-  console.log('Banco de dados conectado!!!');
+  console.log('Banco de dados conectado!!');
 });
 
 // Command handler
