@@ -17,7 +17,7 @@ For each message the user sends he gets a certain configurable number of  xp, an
 ## Commands 
 
 :fire: $profile -> 
-You can mention a user to have access to his avatar and if you don't mention anyone you can see yours
+You can mention a user to have access to his avatar, xp, level and if you don't mention anyone you can see yours 
 
 # Author :bust_in_silhouette:
 
