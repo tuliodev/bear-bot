@@ -1,5 +1,5 @@
+// Embed
 const { MessageEmbed } = require('discord.js');
-// embed
 
 // Mongoose models
 const User = require('../database/Models/User');
