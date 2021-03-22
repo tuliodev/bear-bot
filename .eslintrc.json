@@ -20,6 +20,7 @@
         "no-useless-return":"off",
         "max-len":"off",
         "import/order":"off",
-        "consistent-return":"off"
+        "consistent-return":"off",
+        "no-plusplus":"off"
     }
 }
