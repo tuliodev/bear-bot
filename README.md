@@ -12,14 +12,14 @@
 # Features :rocket:
 
 :fire: XP system -> 
-For each message the user sends he gets a certain number of configurable xp, and reaching a certain number he level up and everything is recorded in a nosql database
+For each message the user sends he gets a certain configurable number of  xp, and reaching a certain number he level up and everything is recorded in a nosql database
 
 ## Commands 
 
 :fire: $profile -> 
 You can mention a user to have access to his avatar and if you don't mention anyone you can see yours
 
-# Author
+# Author :bust_in_silhouette:
 
 <table>
 <tr>
