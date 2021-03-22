@@ -19,6 +19,9 @@ For each message the user sends he gets a certain configurable number of  xp, an
 :fire: $profile -> 
 You can mention a user to have access to his avatar, xp, level and if you don't mention anyone you can see yours 
 
+:fire: $topxp -> 
+You can see top 5 users who have more xp on the bot
+
 # Author :bust_in_silhouette:
 
 <table>
