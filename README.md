@@ -22,6 +22,11 @@ You can mention a user to have access to his avatar, xp, level and if you don't 
 :fire: $topxp -> 
 You can see top 5 users who have more xp on the bot
 
+#### :collision: Administration System commands
+:fire: $ban -> 
+If you have ban permission you can mention a user in the command and ban him
+
+
 # Author :bust_in_silhouette:
 
 <table>
